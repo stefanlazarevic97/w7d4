@@ -1,1 +1,29 @@
 /* PHASE 2: Notifications */
+
+.header-notifications {
+    display: none;
+    position: absolute;
+    left: -1px;
+    white-space: nowrap;
+    background: #fff;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+    color: #000;
+    font-size: 14px;
+}
+
+li:hover > .header-notifications {
+    display: block;
+}
+
+.badge {
+    display: inline;
+    font-size: 14px;
+    padding: 1px 6px;
+    background-color: #000;
+    border-radius: 50%;
+}
